@@ -4,7 +4,6 @@ import { Model } from 'mongoose';
 import { Address, AddressDocument } from './schemas/address.schema';
 import { CreateAddressDto } from './dto/create-address.dto';
 import { CriminalsService } from 'src/criminals/criminals.service';
-import { error } from 'console';
 
 @Injectable()
 export class AddressesService {
